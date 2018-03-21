@@ -1,0 +1,10 @@
+<strong>${menu.name}</strong>
+<ul>
+<%
+menu.items.each { i ->
+    println "<li>${i.name}: ${i.price}</li>"
+}
+%>
+</ul>
+<br>
+<a href="${menu.url}">zobrazit na webu</a>
