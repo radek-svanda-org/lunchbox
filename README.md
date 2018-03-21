@@ -21,7 +21,7 @@ See the [Jenkinsfile](Jenkinsfile):
 
 ## How to configure
 
-See file [application.properties](application.properties)
+See file [application.properties](src/main/resources/application.properties)
 
 You will need:
 
@@ -29,7 +29,7 @@ You will need:
 * hipchat room secret token
 * zomato access token
 
-You can also implement your own consumer e.g. for Slack or twitter. See the `MessageConsumer` interface.
+You can also implement your own consumer e.g. for Slack or twitter. See the [MessageConsumer](src/main/groovy/lunchbox/MessageConsumer.groovy) interface.
 
 ## How to get Zomato restaurant ID
 
